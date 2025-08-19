@@ -1,0 +1,76 @@
+body {
+          background-color: #f0f2f5;
+          font-family: Arial, sans-serif;
+}
+
+.login-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+}
+
+.login-form {
+          background-color: white;
+          padding: 2rem;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          width: 100%;
+          max-width: 500px;
+}
+
+h2 {
+          text-align: center;
+}
+
+/* Fix form input alignment */
+.form-input-group {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 15px;
+}
+
+.form-input-group label {
+          margin-bottom: 5px;
+          font-weight: bold;
+}
+
+.form-input-group input {
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-size: 1rem;
+}
+
+/* Error message styling */
+.error {
+          color: red;
+          font-size: 0.85rem;
+          margin-top: 3px;
+}
+
+/* Remember me and forgot link */
+.input {
+          display: flex;
+          align-items: center;
+}
+
+.input label {
+          margin-left: 5px;
+}
+
+/* Submit button */
+.btn-blue {
+          background-color: #007bff;
+          color: white;
+          padding: 10px 20px;
+          font-size: 1rem;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          width: 100%;
+}
+
+.btn-blue:hover {
+          background-color: #0069d9;
+}

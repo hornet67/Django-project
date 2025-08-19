@@ -1,0 +1,3 @@
+test/
+# Django SQLite database
+db.sqlite3
