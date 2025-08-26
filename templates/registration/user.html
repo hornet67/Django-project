@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+
+{% block title %}Auther profile {% endblock %}
+
+{% block content %} 
+
+Welcome to Auther
+
+
+{% for m in auther %}
+<h1>{{ m.name }}</h1>
+<h1>{{ a.email }}</h1>
+{% endfor %}
+
+{% endblock %}
